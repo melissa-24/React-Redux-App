@@ -100,7 +100,7 @@ const URLForm = ({ shortenURL, error, fetching, url }) => {
   return (
     <div>
       {fetching ? (
-        <CircularProgress style={{ color: "#EF5B25" }} />
+        <CircularProgress style={{ color: "purple" }} />
       ) : (
         <div>
           <form onSubmit={handleSubmit}>

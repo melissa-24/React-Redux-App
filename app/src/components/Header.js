@@ -1,6 +1,5 @@
 import React from "react";
 import { AppBar, Toolbar, Typography, Grid } from "@material-ui/core";
-import DirectionsRunIcon from "@material-ui/icons/DirectionsRun";
 import { makeStyles } from "@material-ui/styles";
 
 const useStyles = makeStyles(() => ({
@@ -32,7 +31,6 @@ const Header = () => {
     <AppBar position="static" className={classes.root}>
       <Toolbar className={classes.toolbars}>
         <Typography className={classes.textStyles}>S H O R T E N my link L A D Y</Typography>
-        <DirectionsRunIcon className={classes.icon} />
         {/* <Grid xs={2} /> */}
       </Toolbar>
     </AppBar>
